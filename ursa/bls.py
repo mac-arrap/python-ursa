@@ -262,7 +262,7 @@ class Bls:
                      gen)
 
         valid = c_bool()
-        do_call('ursa_bsl_verify',
+        do_call('ursa_bls_verify',
                 signature.c_instance,
                 message, len(message),
                 ver_key.c_instance,
@@ -290,7 +290,7 @@ class Bls:
                      gen)
 
         valid = c_bool()
-        do_call('ursa_bsl_verify_pop',
+        do_call('ursa_bls_verify_pop',
                 pop.c_instance,
                 ver_key.c_instance,
                 gen.c_instance,
