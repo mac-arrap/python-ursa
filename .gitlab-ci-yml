@@ -2,4 +2,4 @@ ubuntu-18.04-python-3.5:
   stage: build
   tags:
     - "ubuntu:18.04"
-  script: ""
+  script: "pytest"
