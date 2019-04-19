@@ -1,5 +1,6 @@
-ubuntu-18.04-python-3.5:
+ubuntu-ursa-master:
   stage: build
   tags:
     - "ubuntu:18.04"
+    
   script: "pytest"
